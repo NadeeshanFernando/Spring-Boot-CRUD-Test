@@ -1,0 +1,34 @@
+#spring:
+#  application:
+#    name: com.anton
+#  jpa:
+#    hibernate:
+#    ddl-auto: true
+#    show-sql: true
+#
+#  cloud:
+#    vault:
+#      authentication: TOKEN
+#
+#      token: hvs.CAESIBqsEH_4RQc8qvUjXymR1DEKtWOXaa1iD631_pEO_WSRGh4KHGh2cy53bTQ1WWNnV1ExZnhUQ2ZlaDNsSUdpcFI
+##      token: hvs.CAESIIWj7OEmDFeGkqRDBFmZb6JX-5gugzqs7ibYv55dQTd9Gh4KHGh2cy5kc3RGZVRHaTJjMGJPNlkyUEpiMzZBTGw
+#
+#      host: 127.0.0.1
+#      port: 8500
+#      scheme: http
+#      fail-fast: true
+#      config:
+#        lifecycle:
+#          enabled: true
+#          min-renewal: 5s
+#          expiry-threshold: 1m
+#      generic:
+#        enabled: true
+#        backend: secret
+#      database:
+#        enabled: true
+#        role: mysql_role1
+##        role: mysql_role2
+#        backend: database
+#  datasource:
+##    url: jdbc:postgresql://localhost:5432/restaurant

@@ -1,0 +1,44 @@
+###restauranttwo
+POST http://localhost:8080/addEmployee
+Content-Type: application/json
+
+{
+  "empName": "anton",
+  "empAge": "26",
+  "empDesignation": "SE",
+  "empSalary": "20000"
+}
+
+<> 2023-05-22T102014.200.json
+<> 2023-05-22T100135.200.json
+
+###
+GET http://localhost:8080/getEmployee
+
+<> 2023-05-22T102131.200.json
+<> 2023-05-22T102037.200.json
+<> 2023-05-22T100143.200.json
+
+###restaurantone
+POST http://localhost:8080/addFoods
+Content-Type: application/json
+
+{
+  "foodName": "Paan",
+  "price": "450",
+  "description": "Good Food",
+  "status": "true"
+}
+
+<> 2023-05-22T102139.200.json
+<> 2023-05-22T100431.200.json
+
+###
+GET http://localhost:8080/getFoods
+
+<> 2023-05-22T105613.200.json
+<> 2023-05-22T102144.200.json
+<> 2023-05-22T102142.200.json
+<> 2023-05-22T100841.200.json
+<> 2023-05-22T100441.200.json
+

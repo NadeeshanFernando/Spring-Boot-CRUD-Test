@@ -1,2 +1,2 @@
-# Spring-Boot-CRUD-Test
- Testing Purposes
+# Spring-Boot-CRUD
+ Spring Boot CRUD + MySQL + Hibernate
